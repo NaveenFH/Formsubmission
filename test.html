@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tour Company Landing Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+      background-color: #f4f4f4;
+    }
+    .container {
+      max-width: 500px;
+      margin: 0 auto;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      color: #333;
+    }
+    form input, form button {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Sign Up for Exclusive Travel Offers!</h1>
+  <p>Fill in your details to receive our latest tour packages and offers.</p>
+
+  <form action="https://formspree.io/f/{YOUR_FORM_ID}" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <button type="submit">Submit</button>
+  </form>
+</div>
+
+</body>
+</html>
